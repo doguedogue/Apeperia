@@ -19,6 +19,7 @@
 
 .head__logo {
     margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .head__navegacion {
@@ -33,4 +34,9 @@
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
+}
+
+.head_container-div {
+    display: flex;
+    align-items: center;
 }
