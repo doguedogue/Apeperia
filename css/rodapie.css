@@ -13,7 +13,7 @@
     display: flex;
 }
 
-.footer__midia {
+.footer__media {
     display: block;
 
     width: 42px;
@@ -24,6 +24,7 @@
 
 .footer__navegacion {
     color: var(--background-blanco);
+    font: var(--open-sans);
     text-align: center;
     line-height: 3;
 }
@@ -33,4 +34,8 @@
     display: inline-block;
 
     margin: 0 .5rem .7rem;
+}
+
+.footer__logo {
+    margin-left: 1rem;
 }
