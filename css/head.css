@@ -40,3 +40,11 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+}
